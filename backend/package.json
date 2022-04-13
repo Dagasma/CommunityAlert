@@ -1,0 +1,46 @@
+{
+  "name": "ca-backend",
+  "version": "1.0.0",
+  "description": "Backend layer of Community Alert Web Application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dagasma/CommunityAlert.git"
+  },
+  "keywords": [
+    "backend",
+    "js",
+    "node",
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "web",
+    "application",
+    "database",
+    "javascript",
+    "community",
+    "alert",
+    "dagasma"
+  ],
+  "author": "Dagasma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dagasma/CommunityAlert/issues"
+  },
+  "homepage": "https://github.com/Dagasma/CommunityAlert#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongodb": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
